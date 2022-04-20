@@ -1,0 +1,391 @@
+
+/* CSS HEX */
+--russian-violet: #10002bff;
+--russian-violet-2: #240046ff;
+--persian-indigo: #3c096cff;
+--purple: #5a189aff;
+--french-violet: #7b2cbfff;
+--amethyst: #9d4eddff;
+--heliotrope: #c77dffff;
+--mauve: #e0aaffff;
+
+/* CSS HSL */
+--russian-violet: hsla(262, 100%, 8%, 1);
+--russian-violet-2: hsla(271, 100%, 14%, 1);
+--persian-indigo: hsla(271, 85%, 23%, 1);
+--purple: hsla(270, 73%, 35%, 1);
+--french-violet: hsla(272, 63%, 46%, 1);
+--amethyst: hsla(273, 68%, 59%, 1);
+--heliotrope: hsla(274, 100%, 75%, 1);
+--mauve: hsla(278, 100%, 83%, 1);
+
+/* SCSS HEX */
+
+
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 0;
+    margin: 0;
+    background-color: #E3EBFF;
+}
+
+
+h1{
+    font-size: 3.77em;
+    font-weight: 450;
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    padding: .22em 1.44em;
+}
+
+h5{
+    font-weight: 500;
+    color: #7b2cbfff;
+}
+
+
+
+.introduction{
+    line-height: 1.77em;
+    font-weight: 200;
+    padding: 1.33em;
+    color: #7b2cbfff;
+    text-align: center;
+}
+.text-info{
+    color: #7b2cbfff;
+}
+
+.summary.description-1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.intro-content{
+    font-weight: 500;
+}
+
+.summary{
+    text-align: center;
+    padding: 1.44em;
+    line-height: 1.88em;
+}
+
+/* logo */
+    /* Will use image. */
+   
+
+.nav-bar{
+    font-size:15px;
+  text-align: center;  
+top: 0;
+width: 100%;
+padding: 1.22em 1em;
+
+
+}
+
+
+.navigation-links{
+    text-decoration: none;
+    font-size: 1.11em;
+    margin-right: 1.22em;
+color:  #10002bff;
+padding: 1em;
+display: block;
+}
+
+.navigation-links:hover{
+    opacity: .77;
+}
+
+.booking{
+    background-color: #5390d9;
+    /* padding: 10px 20px; */
+    border-radius: 14px;
+    opacity: .55;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.9rem 2.5rem;
+    text-align: center;
+    background-color:#3c096cff ;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+}
+
+.btn:hover{
+    color: bisque;
+}
+
+.doctors-img{
+    width: 420px;
+    max-width: 100%;
+    border-radius: 12px 15px 12px 15px;
+    margin-top: 20px;
+}
+
+.intro-2-text{
+width: 540px;
+max-width: 100%;
+}
+
+.rehab-intro{
+    color: #3c096cff;
+    text-align: center;
+}
+
+
+.servs{
+    margin:2em 1.88em;
+}
+
+.services{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ser-1{
+    width:250px ;
+    font-size: .99;
+    line-height: 1.55em;
+    border-radius: 12px;
+}
+
+.servs_grp_1 ,.servs_grp_2{
+    margin: 1.44em ;
+    text-align: center;
+}
+
+.servs_grp_2{
+    border-radius: 20px;
+}
+
+.ser-1:hover{
+    box-shadow: 5px 5px #888888;
+    
+}
+
+.step_1,.step_2{
+    text-align: center;
+}
+
+.walkthrough_img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+form{
+    background-color: #5390d9;
+    padding: 1.12em;
+    margin: 3em;
+    border-radius: 20px;
+}
+
+form input {
+    font-family: inherit;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 1em 1.33em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    color: #080707;
+    text-indent: 40px;
+  }
+
+  .form-field{
+    display: flex;
+    padding: 1em 1.33em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input{
+    border-radius: 25px;
+
+  }
+
+  .fa ,.fa-bars {
+    visibilty: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.form_span{kf
+    font-weight: 200;
+    color: #3c096cff;
+}
+  
+
+@media (min-width:850px) {
+    .nav-bar{
+        font-size:15px;
+      text-align: right;
+      display: flex;
+      justify-content: space-evenly;
+      top: 0;
+      width: 100%;
+      flex-direction: row;
+      padding: 1.22em;
+    }
+    
+    .nav-links{
+        margin-left: 1.22em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .sign-up-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navigation-links{
+        text-decoration: none;
+        font-size: 1.11em;
+        margin-right: 1.22em;
+    color:  #10002bff;
+    
+    }
+    
+    .navigation-links:hover{
+        opacity: .77;
+    }
+
+    .introduction{
+        font-weight: 200;
+        line-height: 1.77em;
+    font-weight: 200;
+    padding: 1.33em;
+    color: #7b2cbfff;
+    text-align: left;
+    display: inline-block;
+  
+    }
+
+        .intro-content{
+            width: 650px;
+            max-width: 100%;
+        }
+
+    .summary{
+        display: flex;
+flex-direction: row;
+gap: 1.44em;
+padding: 1.22em;
+
+    }
+
+    .doctors-img{
+        width: 540px;
+        max-width: 100%;
+    }
+ 
+        
+
+    .servs_grp_1 ,.servs_grp_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+.ser-1 + .ser-1{
+margin-left: 1.55em;
+}
+    
+    .servs_grp_2{
+        background-color: #5a189aff;
+        border-radius: 20px;
+        padding: 1em 2em;
+        color: #fff;
+    }
+
+    .ser_2_head{
+        color: #fff;
+    }
+
+    .step_1,.step_2{
+        display: flex;
+        flex-direction: row;
+        gap: 1.77em;
+        justify-content: center;
+
+    }
+
+    .step_2{
+        
+        padding-top: 1.55em;
+       
+   
+    }
+
+    .info{
+        text-align: left;
+        padding: 1.22em;
+        width: 500px;
+        max-width: 100%;
+        color: #3c096cff;
+    }
+
+    .info_2{
+        text-align: left;
+        padding: 1.22em;
+        width: 500px;
+        max-width: 100%;
+        color: #3c096cff;
+    }
+
+    form input {
+        font-family: inherit;
+        width: 30%;
+        outline: none;
+        background-color: #fff;
+        border-radius: 4px;
+        border: none;
+        padding: 1em 1.33em;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        font-size: 17px;
+        color: #080707;
+        text-indent: 40px;
+      }
+
+      
+form{
+    background-color: #5390d9;
+    padding: 1.77em;
+    margin: 9em;
+    border-radius:15px ;
+}
+
+input{
+    border-radius: 14px;
+
+}
+
+}
