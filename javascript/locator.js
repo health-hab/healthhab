@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
   // center: [-77.034084, 38.909671],
   center: [32.59604157405252, 0.3185463979220202],
   // center: [32.3032414, 1.3707295],
-  zoom: 24,
+  zoom: 15,
   scrollZoom: false,
 });
 
