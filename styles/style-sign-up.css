@@ -14,10 +14,10 @@ p{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 2em;
+    padding: 1em 1.44em;
     font-weight: 200;
     color: #7b2cbfff;
-    text-align: center;
 }
 
 form {

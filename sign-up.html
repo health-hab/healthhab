@@ -10,8 +10,12 @@
   <body>
     <main>
       <div class="sign_up_form">
-        <form action="#" method="post">
-          <h1>Sign up</h1>
+        <form
+          name="sign_up"
+          action="#"
+          method="post"
+          onsubmit="return(validate());"
+        >
           <p>
             Sign up for a free account to be able to connect with teams and
             centers more efficiently.
@@ -31,12 +35,12 @@
             placeholder="Enter your email"
           />
           <label for="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Enter your password"
-          />
+
+          <input type="password" id="password" name="password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at
+          least one number and one uppercase and lowercase letter, and at least
+          8 or more characters" required"/>
+
           <input type="checkbox" onclick="myFunction()" />
           <span>Show</span>
           <label for="confirm_passoword">Confirm password</label>
