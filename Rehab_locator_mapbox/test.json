@@ -1,0 +1,14 @@
+{
+    type: "Feature",
+    geometry: {
+      type: "Point",
+      coordinates: [33.20317, 0.43902],
+    },
+    properties: {
+      phone: " 0782743383",
+      address: "8G2W+H7 Kampala",
+      city: "Kampala",
+      country: "Uganda",
+      crossStreet: "at 15th St NW",
+    },
+  },

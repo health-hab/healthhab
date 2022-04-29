@@ -1,31 +1,77 @@
+
+/* CSS HEX */
+/* --russian-violet: #10002bff;
+--russian-violet-2: #240046ff;
+--persian-indigo: #3c096cff;
+--purple: #5a189aff;
+--french-violet: #7b2cbfff;
+--amethyst: #9d4eddff;
+--heliotrope: #c77dffff;
+--mauve: #e0aaffff;
+
+/* CSS HSL */
+/* --russian-violet: hsla(262, 100%, 8%, 1);
+--russian-violet-2: hsla(271, 100%, 14%, 1);
+--persian-indigo: hsla(271, 85%, 23%, 1);
+--purple: hsla(270, 73%, 35%, 1);
+--french-violet: hsla(272, 63%, 46%, 1);
+--amethyst: hsla(273, 68%, 59%, 1);
+--heliotrope: hsla(274, 100%, 75%, 1);
+--mauve: hsla(278, 100%, 83%, 1); */ */
+
+/* SCSS HEX */
+
+
+
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
     padding: 0;
     margin: 0;
+    background-color: #c77dffff;
+}
 
+
+h1{
+    font-size: 3.77em;
+    font-weight: 450;
+    color: black;
 }
- /*background-size: cover;*/
-body{
+
+h2{
+    color: black;
+}
+
+h3{
     text-align: center;
+    font-size: 2em;
+    padding: .22em 1.44em;
 }
+
+h5{
+    font-weight: 500;
+    color: #7b2cbfff;
+}
+
+
 
 .introduction{
-    padding-top:8em ;
-    margin: 1.77em;
     line-height: 1.77em;
     font-weight: 200;
-    
+    padding: 1.33em;
+    color: #7b2cbfff;
+    text-align: center;
 }
-
-h2 {
-    color: cyan;
+.text-info{
+    color: #7b2cbfff;
 }
 
 .summary.description-1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.intro-content{
+    font-weight: 500;
+}
 
 .summary{
     text-align: center;
@@ -33,88 +79,260 @@ h2 {
     line-height: 1.88em;
 }
 
+/* logo */
+    /* Will use image. */
+   
+
 .nav-bar{
     font-size:15px;
-  text-align: right;
-  
-position: fixed;
+  text-align: center;  
 top: 0;
 width: 100%;
-background-color:#730071 ;
-padding: 1.22em;
+padding: 1.22em 1em;
 
 
 }
 
-.nav-links{
-background-color:#730071 ;
-    
-}
 
 .navigation-links{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.11em;
     margin-right: 1.22em;
-    background-color:#730071 ;
-    color: #FFFFF3;
-
+color:  #10002bff;
+padding: 1em;
+display: block;
 }
 
 .navigation-links:hover{
     opacity: .77;
 }
 
-
-
-.button-cta{
-    text-decoration: none;
-    border: 2px solid black outset ;
+.booking{
+    background-color: #5390d9;
+    /* padding: 10px 20px; */
+    border-radius: 14px;
+    opacity: .55;
 }
 
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.9rem 2.5rem;
+    text-align: center;
+    background-color:#3c096cff ;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+}
+
+.btn:hover{
+    color: bisque;
+}
 
 .doctors-img{
     width: 420px;
-}
-
-.call-to-action-buttons{
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
-
-}
-
-.cta-grp1,.cta-grp2,.cta-grp3{
-    padding: 20px ;
-    margin-top: 54px;
-    font-size: 1.77em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    border-radius: 50px;
-    width:245px;
     max-width: 100%;
-    display: block;
-    
-    background-color: bisque;
+    border-radius: 12px 15px 12px 15px;
+    margin-top: 20px;
+}
+
+.intro-2-text{
+width: 540px;
+max-width: 100%;
+}
+
+.rehab-intro{
+    color: #3c096cff;
+    text-align: center;
 }
 
 
+.servs{
+    margin:2em 1.88em;
+}
 
-@media (min-width:760px) {
-   
+.services{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
+.ser-1{
+    width:250px ;
+    font-size: .99;
+    line-height: 1.55em;
+    border-radius: 12px;
+}
 
-    .introduction{
-        padding-top: 6em;
-       
-        }
-        
-        .intro-info{
+.servs_grp_1 ,.servs_grp_2{
+    margin: 1.44em ;
+    text-align: center;
+}
+
+.servs_grp_2{
+    border-radius: 20px;
+}
+
+.ser-1:hover{
+    box-shadow: 5px 5px #888888;
+    
+}
+
+.step_1,.step_2{
+    text-align: center;
+}
+
+.walkthrough_img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+form{
+    background-color: #5390d9;
+    padding: 1.12em;
+    margin: 3em;
+    border-radius: 20px;
+}
+
+form input {
+    font-family: inherit;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 1em 1.33em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    color: #080707;
+    text-indent: 40px;
+  }
+
+  .form-field{
+    display: flex;
+    padding: 1em 1.33em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input{
+    border-radius: 25px;
+
+  }
+
+  .fa ,.fa-bars {
+    visibilty: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.form_span{
+    font-weight: 200;
+    color: #3c096cff;
+}
+
+.footer_input {
+    padding: 1.1em 1.88em;
+    width: 250px;
+    max-width: 100%;
+  }
+
+  main {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    background-color: #14080e;
+    padding: 1.88em;
+  }
+  
+  
+
+  .support_links {
+    display: block;
+    text-decoration: none;
+    margin-top: 1.66em;
+  }
+
+  .btn_subscribe {
+    text-decoration: none;
+    background-color: #7f7eff;
+    color: white;
+    font-size: 1em;
+    padding: 0.88em 1.77em;
+    border-radius: 10px;
+  }
+
+  .footer_header{
+      color: #fff;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    }
+    
+    .icon_img{
+    width: 50px;
+    }
+
+@media (min-width:850px) {
+    .nav-bar{
+        font-size:15px;
+      text-align: right;
+      display: flex;
+      justify-content: space-evenly;
+      top: 0;
+      width: 100%;
+      flex-direction: row;
+      padding: 1.22em;
+    }
+    
+    .nav-links{
+        margin-left: 1.22em;
         display: flex;
         flex-direction: row;
-        padding: 2.22em;
-        
-        }
+        justify-content: space-between;
+    }
+    
+    .sign-up-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navigation-links{
+        text-decoration: none;
+        font-size: 1.11em;
+        margin-right: 1.22em;
+    color:  #10002bff;
+    
+    }
+    
+    .navigation-links:hover{
+        opacity: .77;
+    }
+
+    .introduction{
+        font-weight: 200;
+        line-height: 1.77em;
+    font-weight: 200;
+    padding: 1.33em;
+    color: #7b2cbfff;
+    text-align: left;
+    display: inline-block;
+  
+    }
 
         .intro-content{
             width: 650px;
@@ -133,37 +351,104 @@ padding: 1.22em;
         width: 540px;
         max-width: 100%;
     }
-    
+ 
+        
 
-    .cta-grp1,.cta-grp2,.cta-grp3{
-        padding: 20px ;
-        font-size: 1.77em;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-        border-radius: 50px;
-        width: 200px;
-        max-width: 100%;
-        display: block;
-        background-color: bisque;
+    .servs_grp_1 ,.servs_grp_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
-    .call-to-action-buttons{
-         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    main {
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: #14080e;
+        padding: 1.88em;
+      }
 
+.ser-1 + .ser-1{
+margin-left: 1.55em;
+}
+    
+    .servs_grp_2{
+        background-color: #5a189aff;
+        border-radius: 20px;
+        padding: 1em 2em;
+        color: #fff;
+    }
+
+    .ser_2_head{
+        color: #fff;
+    }
+
+    .step_1,.step_2{
+        display: flex;
+        flex-direction: row;
+        gap: 1.77em;
+        justify-content: center;
+
+    }
+
+    .step_2{
+        
+        padding-top: 1.55em;
+       
    
     }
-    
-    .button-cta{
-        text-decoration: none;
-        
-    
+
+    .info{
+        text-align: left;
+        padding: 1.22em;
+        width: 500px;
+        max-width: 100%;
+        color: #3c096cff;
     }
 
-    .call-to-action-buttons:hover{
-        opacity: .88;
+    .info_2{
+        text-align: left;
+        padding: 1.22em;
+        width: 500px;
+        max-width: 100%;
+        color: #3c096cff;
     }
 
+    form input {
+        font-family: inherit;
+        width: 30%;
+        outline: none;
+        background-color: #fff;
+        border-radius: 4px;
+        border: none;
+        padding: 1em 1.33em;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        font-size: 17px;
+        color: #080707;
+        text-indent: 40px;
+      }
 
+      
+form{
+    background-color: #5390d9;
+    padding: 1.77em;
+    margin: 9em;
+    border-radius:15px ;
+}
+
+input{
+    border-radius: 14px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .support{
+      text-align: left;
+      color: white;
+  }
 }

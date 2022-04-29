@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 #bg {
   position: fixed;
-  background-image: url("../images/patient-and-doctor.jpg");
+  background-image: url("images/teamwork.jpg");
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 body {
